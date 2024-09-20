@@ -2,8 +2,8 @@
 
 set -e
 #заполните своими данными
-BOT_TOKEN="сюда_вставть_токен_бота"
-CHAT_ID="сюда_вставть_ID_чата_или_канала"
+BOT_TOKEN="сюда_вставить_токен_бота"
+CHAT_ID="сюда_вставить_ID_чата_или_канала"
 #путь к папке SHM 
 DOCKER_COMPOSE_PATH="/opt/shm" 
 
@@ -15,4 +15,4 @@ sleep 2
 curl -s -X  POST -d chat_id=$CHAT_ID -d parse_mode=HTML -d text="$MESSAGE" https://api.telegram.org/bot${BOT_TOKEN}/sendMessage
 
 #пример cron для выполнения каждые 24 часа:
-#  3 */24 * * * sudo sh /opt/shm/check_spool_new.sh
+#  3 */24 * * * sudo sh /opt/shm/shm_check_jobs.sh
