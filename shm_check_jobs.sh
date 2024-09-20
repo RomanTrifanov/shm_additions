@@ -6,7 +6,7 @@ BOT_TOKEN="сюда_вставть_токен_бота"
 CHAT_ID="сюда_вставть_ID_чата_или_канала"
 #путь к папке SHM 
 DOCKER_COMPOSE_PATH="/opt/shm" 
- 
+
 cd ${DOCKER_COMPOSE_PATH}
 
 echo "SELECT event, status FROM spool WHERE event LIKE '%Jobs%'" | docker-compose exec -T mysql /bin/bash -c 'MYSQL_PWD=${MYSQL_ROOT_PASSWORD} mysql -u root shm' > ${DOCKER_COMPOSE_PATH}/spool.job
