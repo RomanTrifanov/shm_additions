@@ -9,7 +9,7 @@ SHM_TEMPLATE="telegram_bot_test"
 # Учетные данные для авторизации - логин:пароль
 CREDENTAILS="admin:xxxxxx"
 # Адрес
-HOST="https://admin.xxxxxxx.ru/"
+HOST="https://admin.xxxxxxx.ru"
 # Имя файла. Расширение можно изменить, если нужно
 FILE="${SHM_TEMPLATE}.tt"
 
