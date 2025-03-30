@@ -9,7 +9,7 @@ SHM_TEMPLATE="my_template"
 # Учетные данные для авторизации - логин:пароль
 CREDENTAILS="admin:xxxxxxx"
 # Адрес
-HOST="https://admin.xxxxxx.ru/"
+HOST="https://admin.xxxxxx.ru"
 
 # Загрузка
 curl -s -u "$CREDENTAILS" \
