@@ -1,0 +1,4 @@
+- **backup_all_templates.sh** - Сохранения всех шаблонов в отдельные файлы, при заполненном setting, создается дополнительный файл настроек.
+- **download_template_from_shm.sh** - Загрузка шаблона из SHM в текущую директорию.
+- **upload_existing_template_to_shm.sh** - Загрузка в SHM новой версии существующего шаблона.
+- **upload_new_template_to_shm.sh** - Загрузка НОВОГО шаблона в SHM.
