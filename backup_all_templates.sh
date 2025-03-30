@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Для работы скрипта необходим пакет jq, установка - apt install jq
+
 # Заполните значения SHM_URL, SHM_USER, SHM_PASS
 SHM_URL='https://admin.xxxxxxx.ru'
 SHM_USER='admin'
